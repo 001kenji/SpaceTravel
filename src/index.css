@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width : 640px)  {
+
+    #indexBody {
+        background-image: url('../assets/home/background-home-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #crewBody {
+        background-image: url('../assets/crew/background-crew-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    #destinationBody {
+        background-image: url('../assets/destination/background-destination-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    #rootTech {
+        background-image: url('../assets/technology/background-technology-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
+
+@media only screen and (min-width : 641px)  {
+
+    #indexBody {
+        background-image: url('../assets/home/background-home-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #crewBody {
+        background-image: url('../assets/crew/background-crew-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    #destinationBody {
+        background-image: url('../assets/destination/background-destination-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    #rootTech {
+        background-image: url('../assets/technology/background-technology-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
+
+@media only screen and (min-width : 1024px)  {
+
+    #indexBody {
+        background-image: url('../assets/home/background-home-desktop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #crewBody {
+        background-image: url('../assets/crew/background-crew-desktop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    #destinationBody {
+        background-image: url('../assets/destination/background-destination-desktop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    #rootTech {
+        background-image: url('../assets/technology/background-technology-desktop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
